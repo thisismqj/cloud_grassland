@@ -3,9 +3,9 @@
     "configurations": [
         {
             "name": "Launch Main",
-            "type": "cppdbg",
+            "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/main.out",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
